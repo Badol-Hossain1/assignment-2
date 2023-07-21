@@ -76,13 +76,13 @@ ul > li {
   font-family: "Courier New", Courier, monospace;
 }
 .main-container {
-position: relative;
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-image: url("./images/Group\ 14.png");
 }
-.ab{
+.ab {
   position: relative;
   left: 200px;
 }
@@ -98,66 +98,81 @@ button {
   align-items: center;
 }
 
-
 .gamer {
   color: #f948b2;
   font-size: 40px;
   text-align: center;
-  padding:  10px;
+  padding: 10px;
 }
-#an{
-  padding:  0px 28px;
+#an {
+  padding: 0px 28px;
 }
 
-#sign{
+#sign {
   padding: 15px;
-  margin:10px 27px;
+  margin: 10px 27px;
 }
-.h3{
+.h3 {
   padding: 15px;
-  margin:10px 27px;
+  margin: 10px 27px;
   font-size: 30px;
 }
 
-.online{
+.online {
   text-align: center;
 }
-.color{
+.color {
   color: #f948b2;
 }
-.onlineP{
+.onlineP {
   margin-top: 10px;
   text-align: center;
 }
 
-
-
-
-
 /* card section */
-.card{
+.card {
   margin-top: 20px;
   display: grid;
-  grid-template-columns: repeat(4,1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 30px;
 }
-.cardP{
+.cardP {
   margin-top: 10px;
 }
- :hover#cardImg{
+:hover#cardImg {
   position: relative;
   cursor: pointer;
- 
 }
- #cardImgs{
+#cardImgs {
   position: absolute;
   top: 40%;
   left: 28%;
   text-align: center;
-
 }
- .colors{
+.colors {
   font-size: 30px;
   color: #f948b2;
   font-weight: 800;
+}
+
+.man {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#man {
+  font-size: 40px;
+}
+.another {
+  font-size: 30px;
+  color: #f948b2;
+  font-weight: 800;
+}
+.po {
+}
+.absu {
+  position: relative;
+  top: 113px;
+  left: 161px;
 }
