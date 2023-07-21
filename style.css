@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+}
+.gamer {
+  color: rgb(238, 17, 17);
+}
+
+.gamer-text {
+  font-size: x-large;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+.about{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#li{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    background-color: aliceblue;
+    padding: 0 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+ul > li{
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+    font-size: large;
+    font-weight: 700;
+   
+}
