@@ -7,7 +7,6 @@
   display: flex;
   align-items: center;
   gap: 10px;
-
 }
 .gamer {
   color: rgb(238, 17, 17);
@@ -16,29 +15,65 @@
 .gamer-text {
   font-size: x-large;
 }
-nav{
-    display: flex;
-    justify-content: space-around;
+nav {
+  display: flex;
+  justify-content: space-around;
 }
-.about{
-    display: flex;
-    align-items: center;
-    gap: 10px;
+.about {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
-#li{
-    display: flex;
-    align-items: center;
-    gap: 4px;
-    background-color: aliceblue;
-    padding: 0 10px;
-    border-radius: 20px;
-    cursor: pointer;
+#li {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background-color: aliceblue;
+  padding: 0 10px;
+  border-radius: 20px;
+  cursor: pointer;
 }
-ul > li{
-    text-decoration: none;
-    list-style: none;
-    cursor: pointer;
-    font-size: large;
-    font-weight: 700;
-   
+ul > li {
+  text-decoration: none;
+  list-style: none;
+  cursor: pointer;
+  font-size: large;
+  font-weight: 700;
+}
+
+/* main */
+
+.main {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+#coat {
+  font-size: 40px;
+  font-weight: 800;
+  color: #f948b2;
+}
+
+.sign {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #f948b2;
+  padding:  10px;
+  border-radius: 10px;
+  border: none;
+}
+.goto {
+  background-color: #4ec5f7;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+.main-container{
+  display: flex;
+  justify-content: space-around;
+}
+button{
+  cursor: pointer;
 }
