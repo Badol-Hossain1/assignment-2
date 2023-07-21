@@ -3,6 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  width: 80%;
+  margin: auto;
+  background-color: rgb(243, 239, 239);
+}
+
 .nav {
   display: flex;
   align-items: center;
@@ -17,7 +23,7 @@
 }
 nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .about {
   display: flex;
@@ -56,9 +62,9 @@ ul > li {
 }
 
 .sign {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   background-color: #f948b2;
-  padding:  10px;
+  padding: 10px;
   border-radius: 10px;
   border: none;
 }
@@ -67,13 +73,91 @@ ul > li {
   padding: 10px;
   border-radius: 10px;
   border: none;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
+}
+.main-container {
+position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url("./images/Group\ 14.png");
+}
+.ab{
+  position: relative;
+  left: 200px;
+}
+button {
+  cursor: pointer;
+}
+
+/* hero section */
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.gamer {
+  color: #f948b2;
+  font-size: 40px;
+  text-align: center;
+  padding:  10px;
+}
+#an{
+  padding:  0px 28px;
+}
+
+#sign{
+  padding: 15px;
+  margin:10px 27px;
+}
+.h3{
+  padding: 15px;
+  margin:10px 27px;
+  font-size: 30px;
+}
+
+.online{
+  text-align: center;
+}
+.color{
+  color: #f948b2;
+}
+.onlineP{
+  margin-top: 10px;
+  text-align: center;
+}
+
+
+
+
+
+/* card section */
+.card{
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 30px;
+}
+.cardP{
+  margin-top: 10px;
+}
+ :hover#cardImg{
+  position: relative;
+  cursor: pointer;
+ 
+}
+ #cardImgs{
+  position: absolute;
+  top: 40%;
+  left: 28%;
+  text-align: center;
 
 }
-.main-container{
-  display: flex;
-  justify-content: space-around;
-}
-button{
-  cursor: pointer;
+ .colors{
+  font-size: 30px;
+  color: #f948b2;
+  font-weight: 800;
 }
