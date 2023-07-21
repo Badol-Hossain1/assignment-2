@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
+.body {
   width: 80%;
   margin: auto;
   background-color: rgb(243, 239, 239);
@@ -190,5 +190,59 @@ button {
   left: 450px;
  bottom: 161px;
 }
+.bg{
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  background-color: aliceblue;
+  border-radius: 50px;
+}
 
 
+.grid{
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(5,1fr);
+  justify-content: center;
+}
+#grid{
+  /* display: grid;
+  grid-template-columns: repeat(4,1fr); */
+margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+
+}
+.bg-color{
+  background-color: rgb(32, 29, 29);
+
+  margin-top: 100px;
+}
+.hi{
+  display: flex;
+  justify-content: center;
+}
+
+.footerT{
+  color: white;
+  font-size: 40px;
+
+}
+.s{
+  color: rgb(238, 17, 17);
+}
+.bg-colors{
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+  
+}
+.ulF{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  color: rgb(136, 128, 128);
+}
